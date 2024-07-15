@@ -4,9 +4,6 @@ body{
     width: 100vw;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 #Auto_container{
     /* background-color: aqua; */
     position: relative;
@@ -124,6 +121,7 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-content: center;
     flex-direction: column;
+    border: 2px solid red;
     /* box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5); */
 }
 .reporter{
@@ -185,6 +183,7 @@ marquee img{
     width: 400px;
     height: 200px;
 }
+
 .mediaPage{
     background-color: rgb(240, 240, 231);
     grid-row: span 1;
