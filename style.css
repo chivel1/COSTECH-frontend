@@ -11,7 +11,7 @@ html{
     /* background-color: aqua; */
     position: relative;
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-columns: 0.5frr 1fr 1fr;
     grid-template-rows: 0.4fr 3fr 2fr 2fr 4fr 2fr 0.5fr;
     gap: 1px;
     height: 339vh;
@@ -43,7 +43,7 @@ h2{
 }
 .navlist{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evnenly;
     align-items: center;
     width: 70%;
 }
@@ -67,6 +67,7 @@ h2{
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding: 20px;
     grid-column: span 3;
     grid-row: span 2;
 }
@@ -136,7 +137,7 @@ h2{
 .iconforrections{
     display: flex;
     /* justify-content: space-evenly; */
-    padding-right: 50px;
+    padding-right: 150px;
 }
 .iconforrections i{
     margin-right: 20px;
@@ -153,7 +154,7 @@ h2{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 2fr  1fr;
-    padding-left: 1%;
+    padding-left: 122%;
 
 }
 .news{
@@ -167,7 +168,7 @@ h2{
     margin: 10px;
     font-family:'Times New Roman', Times, serif;
     font-size: 1.1rem;
-    padding: 20px;
+    padding: 200px;
 }
 .newposthead1{
     font-weight: bold;
@@ -184,6 +185,11 @@ h2{
 marquee img{
     width: 400px;
     height: 200px;
+}
+.center-con{
+    border-bottom: 2px solid gray;
+    padding: 30px;
+    position: inherit;
 }
 .mediaPage{
     background-color: rgb(240, 240, 231);
